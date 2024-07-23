@@ -1,0 +1,6 @@
+Staff_Id:111
+staff_name: Rahan
+staff_address: 1
+staff_Contact: 1111111111
+staff_Citizenship: 1
+staff_password: 1

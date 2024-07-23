@@ -1,0 +1,7 @@
+customer_name: 1
+customer_address: 1
+customer_Number: 1111111111
+customer_citizenship_number: 1
+Account Type: Current
+Total-amt: $.800
+Customer_password: 000

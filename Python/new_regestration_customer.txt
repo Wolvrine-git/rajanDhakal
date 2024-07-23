@@ -1,0 +1,6 @@
+customer_name: rajan
+customer_address: 
+customer_Number: 1111222222
+customer_citizenship_number: 22
+Min-amt: Rs.22222
+Customer_password: 000

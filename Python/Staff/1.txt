@@ -1,0 +1,6 @@
+Staff ID: 1
+Staff Name: q
+Staff Address: q
+Staff Contact: 1111111111
+Staff Citizenship No: q
+Staff Password: 1
