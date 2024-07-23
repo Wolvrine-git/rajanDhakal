@@ -1,0 +1,101 @@
+.na{
+    background: #8e44ad;
+}
+.main{
+    /* background-color: #34495e; */
+}
+.first{
+height: 100vh;
+clip-path: polygon(0 0, 100% 0, 100% 95%, 0 85%);
+display: flex;
+align-items: center;
+/* background: #34495e; */
+background: linear-gradient( 360deg ,#8e44ad, rgba(0 ,0,0,0.5)),  url('https://images.pexels.com/photos/5323336/pexels-photo-5323336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.box1{
+    padding: 30px;
+}
+
+.third{
+    background: linear-gradient( 120deg ,#8e44ad, rgba(0 ,0,0,0.5)) , url('https://images.pexels.com/photos/7078029/pexels-photo-7078029.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat ;
+    background-position: center;
+    background-size: cover;
+clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+min-height: 100vh;
+}
+.left{
+    border-top: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    color: black;
+    /* backdrop-filter: blur(5px); */
+    background-color:  rgba(255,255,255,0.5);
+    background-color: white;
+    min-height: 50vh;
+}
+.right{
+    border-top: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    backdrop-filter: blur(5px);
+    /* background-color:  rgba(0,0,0,0.5); */
+    background-color: white;
+    min-height: 50vh
+    
+}
+.fourth{
+  height: 100vh;  
+  position: relative;
+  overflow: hidden;
+}
+ .second .box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+.icon{
+    font-size: 20px;
+    margin: 20px;
+    display: none;
+    
+}
+#mySidenav a {
+    position: absolute; 
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+    
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+    
+  }
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 90px;
+    background-color: #2196F3; 
+  }
+  
+  #projects {
+    top: 160px;
+    background-color: #f44336; 
+  }
+  
+  #contact {
+    top: 230px;
+    background-color: #555 
+  }

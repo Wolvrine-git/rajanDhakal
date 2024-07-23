@@ -1,0 +1,92 @@
+/* HEADER SECTION */
+html{
+    scroll-behavior: smooth;
+}
+.header{
+min-height: 100vh;
+background-size: cover;
+ background: linear-gradient(to bottom  right, #2bcbba, #26de81 ); 
+background-color: #c0392b;
+}
+.header .heading{
+    margin-top: 194px;
+}
+
+.btn{
+    background:#fff;
+    border-radius: 70px;
+   font-size: 20px;
+    border: none;
+    padding: 15px;
+    color: #000;
+}
+#headings{
+    /* border-bottom: 4px solid white; */
+    width: 50%;
+}
+/* HEADER SECTION ENDS */
+#spans{
+    color: #26de81;
+    font-size: 70px;
+}
+.bgimg{
+    background: linear-gradient(rgba(0,0,0,0.7) 100%,black ),url('office.jpeg')  no-repeat;
+  min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+#bran{
+    /* border-top: 1px solid #eb4d4b; */
+    position: relative;
+    border-radius: 10px;
+    min-height: 40vh;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    /* background:  linear-gradient(-135deg,#ffef65 10%,#fff 10%); */
+}
+#bran::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    clip-path: circle(35.4% at 50% 0);
+    /* background: linear-gradient(to bottom  right, #fa6fe6,#ffef65 );  */
+    background: #26de81;
+    z-index: -1;
+}
+
+.icon i{  
+    height: 3.5rem;
+    line-height: 3.5rem;
+    width: 3.5rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* background-color:#fa6fe6 ; */
+}
+#car1{
+    /* background: linear-gradient(to bottom  right, #fa6fe6,#ffef65 );  */
+    background: #26de81;
+}
+
+#foter{
+    background: linear-gradient(to bottom  right,#26de81, #2bcbba ); 
+    bottom: 0px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    overflow: hidden;
+}
+#foter i{
+    padding: 5px;
+}
+#foter  a{
+    color: rgb(255, 255, 255);
+      margin: 10px;
+    text-decoration: none;
+}
