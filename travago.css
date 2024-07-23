@@ -1,0 +1,104 @@
+html{
+  scroll-behavior: smooth;
+}
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 50%,  rgba(0, 0, 0, 0.6))
+        50%,
+      url("hero.jpg")
+        no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #navi {
+    background: #344 95e;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+   #btns{
+    background-color:#0fbcf9;
+    color: #fff;
+  } 
+   #spans{
+    color: #0fbcf9;
+  }
+  .stick {
+    background-color:#0fbcf9;
+    color: #000;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    z-index: 100;
+    transition: 0.4s;
+    margin:  4px;
+  }
+  .banner {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    letter-spacing: 2px;
+    flex-direction: column;
+  }
+  .banner h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+
+  /* SECOND SECTIONS */
+
+  #cards1{
+    transform: translate(0px, -50px);
+    height: 40vh;
+  }
+ 
+  /* Third  section*/
+  .third{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .box1{
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    flex-direction: column;
+transform: translate(-120px, 0px);
+background-color: #fff;
+text-align: center;
+  }
+  .imgbox img{
+    height: auto;
+    width: 100%;
+  }
+  /* Customer Review */
+  .forth img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 170px;
+    width: 170px;
+  }
+  .reviewbox{
+      color: #fbc531;
+      font-size: 20px;
+  }
+  #card1,#card2,#card3{
+      transition: 0.5s;
+  }
+  #card1:hover,#card2:hover,#card3:hover{
+      transform: translateY(-30px);
+      transition: 0.5s;
+  }
+  /* footer */
+  footer{
+    background: #ecf0f1;
+  
+  }
+  footer .hrs{
+    color: #16a085;
+  }
